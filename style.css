@@ -1,0 +1,115 @@
+body{
+  
+   
+}
+
+.navbar-nav li{
+    padding: 10px;
+    font-size: 22px;
+}
+.do{
+    background-image: url(image/Rectangle\ 53\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center; 
+}
+
+.tro{
+    border: 1px solid rgba(0, 122, 128, 0.683);
+    border-radius: 25px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center; 
+}
+.lo{
+    background-image:url(image/Rectangle\ 42@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-radius:25px ;
+    
+}
+.pho{
+    width: 150px;
+}
+.h div{
+    margin-top: 40px;
+}
+.trie{
+    background-image:url(image/Rectangle\ 11.png);
+    background-size: 100%;
+    background-position: center;
+}
+.p{
+    border: 1px solid green;
+    background-color: red;
+    padding: 25px;
+
+}
+.to{
+    border: 1px solid green;
+}
+.long{
+    background: url(image/Rectangle\ 65.png);
+    background-size: 100%;
+    background-position: center;
+   
+}
+.large{
+    background: url(image/Rectangle\ 42.png);
+    background-size: 100%;
+    background-position: center;
+}
+.li{
+  
+    position: relative;
+    top:370px;
+}
+.mb{
+    margin-top: -100px;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .mb{
+        margin-top: 50px;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
